@@ -1,4 +1,0 @@
-hello bitdata
-hello hadoop
-hello bigdata
-hello emmm
