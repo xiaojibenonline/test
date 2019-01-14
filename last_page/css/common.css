@@ -1,0 +1,90 @@
+/*阿里云图标修改*/
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    font-size: 24px;
+}
+.python_logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 80px;
+}
+
+/*头部*/
+.header_box {
+    background-color: deepskyblue;
+}
+.header_box .header {
+    width: 1500px;
+    height: 100px;
+    margin: auto;
+    white-space: nowrap;  /*内部div不换行*/
+    font-size: 0;  /*去掉换行产生空格*/
+}
+.header_box .header .logo {
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+}
+.header_box .header .all_page {
+    width: 900px;
+    height: 100px;
+    display: inline-block;
+}
+.header_box .header .all_page ul {
+    list-style: none;
+    margin-left: 50px;
+}
+.header_box .header .all_page ul li {
+    float: left;
+    height: 57px;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.header_box .header .all_page ul li:hover {
+    border-bottom: 3px solid blue;
+    /*box-sizing: border-box;*/
+    cursor: pointer;
+    color: white;
+}
+.header_box .header .all_page ul li.active {
+    border-bottom: 3px solid blue;
+    color: white;
+}
+.header_box .header .login {
+    width: 200px;
+    height:100px;
+    display: inline-block;
+}
+.header_box .header .login .lo_re {
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 24px;
+}
+.header_box .header .login .lo_re a:hover {
+    color: red;
+}
+
+/*尾部*/
+.footer {
+    width: 100%;
+    height: 100px;
+}
+.footer .others {
+    width: 100%;
+    height: 70px;
+    background-color: darkgray;
+}
+.footer .copyright {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;  /*内容所占高度*/
+    background-color: gray;
+}
